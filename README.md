@@ -108,7 +108,7 @@ If you get stuck during this project or would like to see an experienced develop
 
 ## 28. Additional Challenges
 - Explore more features like rearranging information, storing user preferences, and randomizing results.
-- https://nickefr.github.io/web.API/index.html
+- https://nickefr.github.io/web.API/
 ![API KEY-API TOKEN](https://github.com/nickefr/web.API/assets/73330890/882a441e-6476-4836-99fe-8cc98b14f0f1)
 ![film finder1](https://github.com/nickefr/web.API/assets/73330890/5a60c384-ed04-45a1-bc5f-10fe3e8a7338)
 
