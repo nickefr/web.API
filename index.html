@@ -6,27 +6,91 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&amp;family=Fredoka+One&amp;family=Questrial&amp;family=Staatliches&amp;display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://github.com/nickefr/web.API/blob/main/style.css"/>
+    <style>
+        /* Custom style for Film Finder */
+        body {
+            font-family: 'Fredoka One', cursive;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #appTitle {
+            font-family: 'Staatliches', cursive;
+        }
+
+        #genreForm {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff8533;
+        }
+
+        #movieInfo {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #moviePoster {
+            margin-right: 20px;
+        }
+
+        #movieText {
+            font-size: 18px;
+        }
+
+        #likeOrDislikeBtns {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .fa-solid {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+    </style>
     <script defer="" src="https://github.com/nickefr/web.API/blob/main/helpers.js"></script>
     <script defer="" src="https://github.com/nickefr/JsPrivate/blob/main/script.js"></script>
 </head>
 <body>
     <header>
-      <h1 id="appTitle">🍿Film Finder🍿</h1>
+        <h1 id="appTitle">🍿Film Finder🍿</h1>
     </header>
     <form id="genreForm">
-      <label>Choose a genre:</label>
-      <select name="genres" id="genres">
-      </select>
+        <label>Choose a genre:</label>
+        <select name="genres" id="genres">
+        </select>
     </form>
-    <button id="playBtn">Let&#39;s Play!</button>
+    <button id="playBtn">Let's Play!</button>
     <div id="movieInfo">
-      <div id="moviePoster"></div>
-      <div id="movieText"></div>
+        <div id="moviePoster"></div>
+        <div id="movieText"></div>
     </div>
     <div id="likeOrDislikeBtns" hidden="">
-      <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
-      <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
+        <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
+        <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
     </div>
     <script type="text/javascript" src="https://github.com/nickefr/web.API/blob/main/e918d10e90.js" crossorigin="anonymous"></script>
 </body>
