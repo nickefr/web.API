@@ -15,6 +15,7 @@
     background-color: var(--mixed-color); /* Brown */
     margin: 0;
     padding: 0;
+    overflow: hidden; /* Hide any overflow content */
   }
 
   h1 {
@@ -22,11 +23,22 @@
     text-align: center;
     margin-top: 20px;
   }
+
+  /* Style the iframe to cover the entire page */
+  iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: -1; /* Place behind other content */
+  }
 </style>
 </head>
 <body>
 <h1>Welcome to My Page</h1>
 <!-- Embedded Video -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1s93eVx-go4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/1s93eVx-go4?autoplay=1" allowfullscreen></iframe>
 </body>
 </html>
