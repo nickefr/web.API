@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video with Custom Styling</title>
+<style>
+  /* Define custom color */
+  :root {
+    --mixed-color: rgb(139, 0, 0); /* Brown */
+  }
 
+  /* Use the mixed color */
+  body {
+    background-color: var(--mixed-color); /* Brown */
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    color: red; /* Red */
+    text-align: center;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Welcome to My Page</h1>
+<!-- Embedded Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1s93eVx-go4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
